@@ -107,7 +107,7 @@ fullscreen = 0
 #android.minapi = 21
 
 # (int) Android SDK version to use
-android.sdk = 24
+android.sdk = 20
 
 # (str) Android NDK version to use
 #android.ndk = 23b
@@ -321,7 +321,7 @@ android.allow_backup = True
 #p4a.fork = kivy
 
 # (str) python-for-android branch to use, defaults to master
-#p4a.branch = master
+p4a.branch = develop
 
 # (str) python-for-android specific commit to use, defaults to HEAD, must be within p4a.branch
 #p4a.commit = HEAD
